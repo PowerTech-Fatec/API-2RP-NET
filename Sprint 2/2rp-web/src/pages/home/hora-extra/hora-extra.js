@@ -80,7 +80,6 @@ function HoraExtra() {
 
     const setFormData = () => {
         setForm({
-            code: value.code,
             data: selectedDate.$d.getDate() + "/" + (selectedDate.$d.getMonth() + 1) + "/" + selectedDate.$d.getFullYear(),
             start: selectedStart.$d.getHours() + ':' + selectedStart.$d.getMinutes(),
             end: selectedEnd.$d.getHours() + ':' + selectedEnd.$d.getMinutes(),
@@ -91,7 +90,6 @@ function HoraExtra() {
     }
     const deleteForm = () => {
         setForm({
-            code: '',
             data: '',
             start: '',
             end: '',

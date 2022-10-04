@@ -46,7 +46,7 @@ function Sidebar({ children }) {
                                 
                     </div>
                     <div className='footer'>
-                        <img src={require('../assets/powertech.png')} height='140px' width='160px' />
+                        <img src={require('../assets/powertech.png')} height='140px' width='160px' alt="logo" />
                     </div>
                 </Box>
             </Drawer>
