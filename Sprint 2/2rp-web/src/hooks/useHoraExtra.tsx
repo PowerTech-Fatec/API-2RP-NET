@@ -4,7 +4,7 @@ import { HoraExtraProps } from '../types';
 
 // useAuth é um hook que definimos
 // ele retorna as propriedades do value do AuthContext.Provider
-export default function useGasto() {
+export default function useHoraExtra() {
   const context = useContext<HoraExtraProps>(HoraExtraContext);
 
   if (!context) {

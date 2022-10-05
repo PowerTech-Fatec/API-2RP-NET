@@ -1,7 +1,7 @@
-import useAuth from './useAuth';
-import useGasto from './useGasto';
+// import useAuth from './useAuth';
+import useHoraExtra from './useHoraExtra';
 
-export {
-  useAuth,
-  useGasto
+export default{
+  useHoraExtra
+  // useAuth,
 }
