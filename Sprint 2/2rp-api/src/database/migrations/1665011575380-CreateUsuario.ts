@@ -1,11 +1,11 @@
 import {MigrationInterface, QueryRunner, Table} from "typeorm";
 
-export class CreateHorasExtras1664815611618 implements MigrationInterface {
+export class CreateUsuario1665011575380 implements MigrationInterface {
 
     public async up(queryRunner: QueryRunner): Promise<void> {
         await queryRunner.createTable(
             new Table({
-                name: "horasextras",
+                name: "usuario",
                 columns:[
                     {
                         name: "id",
@@ -15,29 +15,34 @@ export class CreateHorasExtras1664815611618 implements MigrationInterface {
                         isNullable: false,
                     },
                     {
-                        name: "codverba",
+                        name: "matricula",
                         type: "varchar"
                     },
                     {
-                        name: "dia",
-                        type: "int"
+                        name: "nome",
+                        type: "number"
                     },
                     {
-                        name: "datainicio",
+                        name: "perfil",
+                        type: "number"
+                    },
+                    {
+                        name: "cpf",
                         type: "varchar"
                     },
                     {
-                        name: "datafim",
+                        name: "email",
                         type: "varchar"
                     },
                     {
-                        name: "status",
+                        name: "senha",
                         type: "varchar"
                     }                       
                 ]
             })
         )
     }
+
 
     public async down(queryRunner: QueryRunner): Promise<void> {
     }
