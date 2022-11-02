@@ -19,6 +19,21 @@ class HoraExtraController {
     return res.json({ error: "Dados inválidos" })
   }
 
+  public async findByStatus(req: Request, res: Response): Promise<Response> {
+    const { status } = req.body
+    const horaextra = await AppDataSource.manager.findBy(Horasextras, { status: status })
+    if (status != 'Aprovado' && status != 'Recusado' && status != 'Pendente')
+      return res.json({ error: "Status inválido" })
+    if (horaextra)
+      return res.json(horaextra)
+    return res.json({ error: "Dados inválidos" })
+  }
+
+  public async getAllPendente(req: Request, res: Response): Promise<Response> {
+    const horaextra = await AppDataSource.manager.findBy(Horasextras, { status: "Pendente" })
+    return res.json(horaextra)
+  }
+
   // public async getByUserId(req: Request, res: Response): Promise<Response> {
   //   const { usuario } = req.body
   //   const horaextra = await AppDataSource.manager.findOneBy(Horasextras, { usuario: usuario })
@@ -30,7 +45,7 @@ class HoraExtraController {
   // }
 
   public async create(req: Request, res: Response) {
-    const { idusuario, codverba, dia, horainicio, horafim, status } = req.body;
+    const { idusuario, codverba, dia, horainicio, horafim } = req.body;
     const usuario: any = await AppDataSource.manager.findOneBy(Usuario, { id: idusuario }).catch((e) => {
       return { error: "Identificador inválido" }
     })
@@ -45,7 +60,7 @@ class HoraExtraController {
       horaExtra.dia = dia
       horaExtra.horainicio = horainicio
       horaExtra.horafim = horafim
-      horaExtra.status = status
+      horaExtra.status = "Pendente"
 
       await AppDataSource.manager.save(Horasextras, horaExtra)
       res.json(horaExtra)

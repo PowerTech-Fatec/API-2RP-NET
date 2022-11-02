@@ -20,9 +20,23 @@ class SobreavisoController {
     return res.json({ error: "Dados inválidos" })
   }
 
+  public async findByStatus(req: Request, res: Response): Promise<Response> {
+    const { status } = req.body
+    const sobreaviso = await AppDataSource.manager.findBy(Sobreaviso, { status: status })
+    if (status != 'Aprovado' && status != 'Recusado' && status != 'Pendente')
+      return res.json({ error: "Status inválido" })
+    if (sobreaviso)
+      return res.json(sobreaviso)
+    return res.json({ error: "Dados inválidos" })
+  }
+
+  public async getAllPendente(req: Request, res: Response): Promise<Response> {
+    const horaextra = await AppDataSource.manager.findBy(Sobreaviso, { status: "Pendente" })
+    return res.json(horaextra)
+  }
 
   public async create(req: Request, res: Response) {
-    const { idusuario, dia, horainicio, horafim, status } = req.body;
+    const { idusuario, dia, horainicio, horafim } = req.body;
     const usuario: any = await AppDataSource.manager.findOneBy(Usuario, { id: idusuario }).catch((e) => {
       return { error: "Identificador inválido" }
     })
@@ -37,7 +51,7 @@ class SobreavisoController {
       sobreaviso.dia = dia
       sobreaviso.horainicio = horainicio
       sobreaviso.horafim = horafim
-      sobreaviso.status = status
+      sobreaviso.status = "Pendente"
 
       await AppDataSource.manager.save(Sobreaviso, sobreaviso)
       res.json(sobreaviso)
