@@ -3,34 +3,23 @@ import Header from "../../../components/header/header";
 import Card from "../../../components/cards/Cards"
 import './gestor.css'
 
-import React, { Component, useEffect, useState } from 'react';
-
-
-
-class MyLabel extends Component {
-  render() {
-    return {
-      
-    }
-  }
-}
-
+import React from 'react';
 
 function Gestor() {
   return (
-      <Sidebar>
-        <Header nome="Horas Extras"></Header>
+    <Sidebar>
+      <Header nome="Horas Extras"></Header>
 
-        {/* linha 1 */}
-        <div className="background d-flex flex-column aling-itens-center">
-          
-          <div>
+      {/* linha 1 */}
+      <div className="background d-flex flex-column aling-itens-center">
+
+        <div>
           <span className="soli">
-          <label className="font">Solicitações hora extra</label> 
+            <label className="font">Solicitações hora extra</label>
           </span>
 
           <span className="filtroLabel">
-          <label className="font">Filtro</label> <input className="mt-4 mb-4 ml-2"></input>
+            <label className="font">Filtro</label> <input className="mt-4 mb-4 ml-2"></input>
           </span>
 
           {/* card info hora extra */}
@@ -56,12 +45,12 @@ function Gestor() {
             HoraFinal = "18:00"
           />
           </div>
-          
 
-          </div>
-            
+
         </div>
-      </Sidebar>
+
+      </div>
+    </Sidebar>
   )
 }
 

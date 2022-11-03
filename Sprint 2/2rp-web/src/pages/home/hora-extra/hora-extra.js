@@ -21,8 +21,8 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
-import Modal from 'react-modal';
-    
+// import Modal from 'react-modal';
+import useHoraExtra from '../../../hooks'
 
 import './hora-extra.css'
 
@@ -37,6 +37,17 @@ function HoraExtra() {
     const [open, setOpen] = React.useState(false);
     const [textSnack, setTextSnack] = React.useState('');
     const [colorSnack, setColorSnack] = React.useState('');
+    const { createHoraExtra } =  useHoraExtra();
+
+    
+    // const salvar = async () => {
+    //     const r = await usuarioCreate({ mail, senha });
+    //     if (r.error !== "") {
+    //         openSnack(r.error, 'error')
+    //     } else {
+    //         openSnack('Cadastrado com sucesso', 'success')
+    //     }
+    // };
 
     const handleChange = (value) => {
         setValue(prevValue => ({
@@ -47,8 +58,8 @@ function HoraExtra() {
 
     const Alert = React.forwardRef(function Alert(props, ref) {
         return <MuiAlert elevation={10} ref={ref} variant="filled" {...props} />;
-      });
-      
+    });
+
 
     const openSnack = (text, color) => {
         setOpen(true);
@@ -56,13 +67,13 @@ function HoraExtra() {
         setColorSnack(color)
     };
 
-    const closeSnack = (event , reason) => {
+    const closeSnack = (event, reason) => {
         if (reason === 'clickaway') {
-          return;
+            return;
         }
-    
+
         setOpen(false);
-      };
+    };
 
     const [form, setForm] = useState({
         code: '',
@@ -77,6 +88,7 @@ function HoraExtra() {
         setValue('')
 
     }
+
 
     const setFormData = () => {
         setForm({
@@ -107,15 +119,15 @@ function HoraExtra() {
         setFormData();
     }
 
-    const [modalIsOpen, setIsOpen] = useState(false)
+    // const [modalIsOpen, setIsOpen] = useState(false)
 
-    function handleOpenModal(){
-        setIsOpen(true)
-    }
+    // function handleOpenModal(){
+    //     setIsOpen(true)
+    // }
 
-    function handleCloseModal(){
-        setIsOpen(false)
-    }
+    // function handleCloseModal(){
+    //     setIsOpen(false)
+    // }
 
     const customStyles = {
         content: {
@@ -123,7 +135,7 @@ function HoraExtra() {
             width: '35%',
             top: '35%',
             left: '40%',
-            
+
         }
     }
 
@@ -200,9 +212,8 @@ function HoraExtra() {
                     <div className="col-3 mt-3">
                         <Button variant="success"
                             disabled={value.code == ''}
-                            onClick={handleOpenModal
-                            }>Confirmar</Button>
-                        <Modal
+                            onClick={() => alert('ola')}>Confirmar</Button>
+                        {/* <Modal
                             isOpen={modalIsOpen}
                             onRequestClose={handleCloseModal}
                             style={customStyles}
@@ -214,7 +225,7 @@ function HoraExtra() {
                                 <Button variant="success" className="botaoModal md-3" onClick={() => submit()
                                 }> Confirmar </Button>
                                 <Button variant="danger" className="botaoModal md-3" onClick={handleCloseModal}> Cancelar </Button>
-                        </Modal>
+                        </Modal> */}
                     </div>
                 </div>
 

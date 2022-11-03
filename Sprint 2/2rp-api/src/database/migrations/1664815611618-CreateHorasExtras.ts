@@ -20,7 +20,7 @@ export class CreateHorasExtras1664815611618 implements MigrationInterface {
                     },
                     {
                         name: "dia",
-                        type: "varchar"
+                        type: "int"
                     },
                     {
                         name: "datainicio",

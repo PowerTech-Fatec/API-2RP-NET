@@ -10,6 +10,11 @@ import { DeleteHorasextrasController } from "./controllers/HorasextrasController
 import { GetAllHorasextrasController } from "./controllers/HorasextrasController/GetAllHorasextrasController";
 import { UpdateHorasextrasController } from "./controllers/HorasextrasController/UpdateHorasextrasController";
 
+import { CreateUsuarioController } from "./controllers/UsuarioController/CreateUsuarioController";
+import { DeleteUsuariosController } from "./controllers/UsuarioController/DeleteUsuarioController";
+import { GetAllUsuarioController } from "./controllers/UsuarioController/GetAllUsuarioController";
+import { UpdateUsuarioController } from "./controllers/UsuarioController/UpdateUsuarioController";
+
 const routes = Router();
 
 routes.post("/sobreavisos", new CreateSobreavisoController().handle);
@@ -22,4 +27,9 @@ routes.get("/horasextras", new GetAllHorasextrasController().handle);
 routes.delete("/horasextras/:id", new DeleteHorasextrasController().handle);
 routes.put("/horasextras/:id", new UpdateHorasextrasController().handle);
 
-export {routes}
+routes.post("/usuarios", new CreateUsuarioController().handle);
+routes.get("/usuarios", new GetAllUsuarioController().handle);
+routes.delete("/usuarios/:id", new DeleteUsuariosController().handle);
+routes.put("/usuarios/:id", new UpdateUsuarioController().handle);
+
+export { routes }
