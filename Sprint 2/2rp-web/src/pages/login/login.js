@@ -6,7 +6,7 @@ function Login() {
             <div className='d-flex flex-row col-12'>
                 <div className='d-flex col-7 fundocolor'>
                     <div>
-                    <img className='marg' src={require('../../assets/powertech.png')} height='60%' width='80%'/>
+                    <img alt='logo' className='marg' src={require('../../assets/powertech.png')} height='60%' width='80%'/>
                     </div>
                 </div>
                 <div className='text-light height fundoback col-5 flex-column justify-content'>
