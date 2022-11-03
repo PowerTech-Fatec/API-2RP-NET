@@ -8,7 +8,6 @@ import HoraExtra from './pages/home/hora-extra/hora-extra'
 import Gestor from './pages/home/gestor/aprovar-hora-extra/gestor'
 import GestorSobreaviso from './pages/home/gestor/aprovar-sobreaviso/gestor-sobreaviso'
 import GestorHistorico from './pages/home/gestor/historico/gestor-historico'
-import Squad from './pages/home/adm/squad/def-squad'
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
       <Route path='/gestor' element={<Gestor />} />
       <Route path='/gestor-sobreaviso' element={<GestorSobreaviso />} />
       <Route path='/gestor-historico' element={<GestorHistorico />} />
-      <Route path='/adm/squad' element={<Squad />} />
       <Route path='*' element={<Login />} />
     </Routes>
 
