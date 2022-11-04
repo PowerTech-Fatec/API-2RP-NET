@@ -8,6 +8,7 @@ import Gestor from './pages/home/gestor/aprovar-hora-extra/gestor'
 import GestorSobreaviso from './pages/home/gestor/aprovar-sobreaviso/gestor-sobreaviso'
 import GestorHistorico from './pages/home/gestor/historico/gestor-historico'
 import { Login } from './pages/login/login';
+import AdminValores from './pages/home/admin.Valores/adminValores';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path='/gestor-sobreaviso' element={<GestorSobreaviso />} />
       <Route path='/gestor-historico' element={<GestorHistorico />} />
       <Route path='*' element={<Login />} />
+      <Route path='/adminValores' element={<AdminValores/>} />
     </Routes>
 
   );

@@ -32,6 +32,9 @@ function Sidebar({ children }) {
                                 {/* <Link to='/gestor-dashboard' className ='side-links mt-4' >
                                     Dashboard
                                 </Link> */}
+                                <Link to='/admin' className ='side-links mt-4' >
+                                    Definir Valores
+                                </Link>
                                 <Link to='/gestor' className ='side-links mt-4' >
                                         Aprovar Hora Extra
                                 </Link>

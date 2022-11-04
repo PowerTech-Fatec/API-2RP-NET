@@ -1,0 +1,46 @@
+.background{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+    height: 82%;
+
+    background-color: #080622;
+}
+
+.filtro{
+    width: 20%;
+}
+
+.soli{
+    margin-left: 15%;
+}
+
+.filtroLabel{
+    margin-left: 12%;
+    font-weight: bold;
+    
+}
+
+.font{
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.lista{
+    background-color: aquamarine;
+    width: 12%;
+    align-items: center;
+    text-align: center;
+}
+.espaco{
+    height: 50px;
+    background-color: gray;
+    width: 12%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+}
+

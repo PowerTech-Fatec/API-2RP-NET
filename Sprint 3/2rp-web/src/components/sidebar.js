@@ -20,11 +20,11 @@ function Sidebar({ children }) {
                         
                                 {/* <Link to='/dashboard' className ='side-links mt-4'>
                                     Dashboard
-                                </Link>
-                                <Link to='/horaextra' className ='side-links mt-4'>
+                                </Link>*/}
+                                {<Link to='/horaextra' className ='side-links mt-4'>
                                     Apontar Hora Extra
-                                </Link>
-                                <Link to='/sobreaviso' className ='side-links mt-4' >
+                                </Link>}
+                                {/*<Link to='/sobreaviso' className ='side-links mt-4' >
                                     Apontar Sobreaviso
                                 </Link> */}
 
@@ -32,6 +32,9 @@ function Sidebar({ children }) {
                                 {/* <Link to='/gestor-dashboard' className ='side-links mt-4' >
                                     Dashboard
                                 </Link> */}
+                                <Link to='/adminValores' className='side-links mt-4'>
+                                        Definir valores
+                                </Link>
                                 <Link to='/gestor' className ='side-links mt-4' >
                                         Aprovar Hora Extra
                                 </Link>
