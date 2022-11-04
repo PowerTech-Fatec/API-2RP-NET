@@ -25,22 +25,43 @@
 .font{
     color: black;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 .lista{
-    background-color: aquamarine;
+    background-color: white;
     width: 12%;
     align-items: center;
     text-align: center;
+    height: 50px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: black;
 }
 .espaco{
     height: 50px;
-    background-color: gray;
+    background-color: #3C5045;
     width: 12%;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding-top: 10px;
+    color: white;
+    border-color: black;
+}
+.espaco2{
+    height: 300px;
+    color:white;
+    border-color: black;
+    background-color: #3C5045;
+    width: 12%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+}
+.tela{
+    border-left-style: solid;
+    border-right-style: solid;
 }
 

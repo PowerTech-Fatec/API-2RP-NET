@@ -20,24 +20,33 @@ function adminValores() {
           {/* card info hora extra */}
         </div>
 
-        <div>
-          <label className="lista border offset-1">Código Verba</label>
-          <label className="lista border">Código Verba</label>
-          <label className="lista border">Código Verba</label>
-          <label className="lista border">Código Verba</label>
-          <label className="lista border">Código Verba</label>
-          <label className="lista border">Código Verba</label>
-          <label className="lista border">Código Verba</label>
+        <div className="d-flex aling-itens-center">
+          <label className="lista offset-1">Código Verba</label>
+          <label className="lista">Valor</label>
+          <label className="lista">valor Night</label>
+          <label className="lista">Feriado</label>
+          <label className="lista">Feriado Night</label>
+          <label className="lista">Fim de Semana</label>
+          <label className="lista">FDS noturno</label>
 
         </div>
-        <div className="">
-          <label className="espaco border offset-1">Código Verba</label>
-          <label className="espaco border">1069</label>
-          <label className="espaco border">10</label>
-          <label className="espaco border">15,10</label>
-          <label className="espaco border">25</label>
-          <label className="espaco border">25</label>
-          <label className="espaco border">25</label>
+        <div className="d-flex aling-itens-center">
+          <label className="espaco tela offset-1">1069</label>
+          <label className="espaco tela">10</label>
+          <label className="espaco tela">15,10</label>
+          <label className="espaco tela">15,10</label>
+          <label className="espaco tela">25</label>
+          <label className="espaco tela">25</label>
+          <label className="espaco tela">25</label>
+        </div>
+        <div className="d-flex aling-itens-center">
+          <label className="espaco2 tela offset-1">1069</label>
+          <label className="espaco2 tela"></label>
+          <label className="espaco2 tela"></label>
+          <label className="espaco2 tela"></label>
+          <label className="espaco2 tela"></label>
+          <label className="espaco2 tela"></label>
+          <label className="espaco2 tela"></label>
         </div>
 
       </div>

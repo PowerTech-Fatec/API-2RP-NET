@@ -21,9 +21,9 @@ function Sidebar({ children }) {
                                 {/* <Link to='/dashboard' className ='side-links mt-4'>
                                     Dashboard
                                 </Link>*/}
-                                {<Link to='/horaextra' className ='side-links mt-4'>
+                                {/*<Link to='/horaextra' className ='side-links mt-4'>
                                     Apontar Hora Extra
-                                </Link>}
+                            </Link>*/}
                                 {/*<Link to='/sobreaviso' className ='side-links mt-4' >
                                     Apontar Sobreaviso
                                 </Link> */}
