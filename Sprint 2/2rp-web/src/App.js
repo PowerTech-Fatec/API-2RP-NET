@@ -10,6 +10,15 @@ import GestorSobreaviso from './pages/home/gestor/aprovar-sobreaviso/gestor-sobr
 import GestorHistorico from './pages/home/gestor/historico/gestor-historico'
 import Admin from './pages/home/admin/admin'
 
+//segurança contra acessar as páginas do gestor diretamente pela barra de endereço
+const Private = ({Gestor}) => {
+
+  //para travar as páginas, altere para false (no caso deveria ser alguma variável que verifica o login)
+  const signed = true;
+
+  return signed > 0 ? <Gestor /> : <Login />;
+}
+
 function App() {
   return (
     <Routes>
@@ -17,11 +26,16 @@ function App() {
       <Route path='/dashboard' element={<Dashboard />} />
       <Route path='/horaextra' element={<HoraExtra />} />
       <Route path='/sobreaviso' element={<Sobreaviso />} />
+
       <Route path='/gestor' element={<Gestor />} />
       <Route path='/gestor-sobreaviso' element={<GestorSobreaviso />} />
       <Route path='/gestor-historico' element={<GestorHistorico />} />
       <Route path='*' element={<Login />} />
+<<<<<<< HEAD
       <Route path='/admin' element={<Admin />} />
+=======
+
+>>>>>>> 9dbaf4fa79b2c018fe3d970b59c92a5647272acf
     </Routes>
 
   );
