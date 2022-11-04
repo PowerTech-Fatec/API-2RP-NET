@@ -45,6 +45,10 @@ function Sidebar({ children }) {
                                     Histórico
                                 </Link>
 
+                                <Link to='/listagem-squad' className ='side-links mt-4' >
+                                    Listagem squad
+                                </Link>
+
 
                                 <Link to='/login' className ='side-links mt-4' >
                                     Sair
