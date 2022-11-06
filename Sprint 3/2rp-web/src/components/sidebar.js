@@ -18,13 +18,13 @@ function Sidebar({ children }) {
                 <Box width={theme.spacing(28)} height={theme.spacing(100)} className ='side-bar  '>
                      <div className='texto mt-5'>
                         
-                                {/* <Link to='/dashboard' className ='side-links mt-4'>
+                                { <Link to='/dashboard' className ='side-links mt-4'>
                                     Dashboard
-                                </Link>
-                                <Link to='/horaextra' className ='side-links mt-4'>
+                                </Link>}
+                                {/*<Link to='/horaextra' className ='side-links mt-4'>
                                     Apontar Hora Extra
-                                </Link>
-                                <Link to='/sobreaviso' className ='side-links mt-4' >
+                            </Link>*/}
+                                {/*<Link to='/sobreaviso' className ='side-links mt-4' >
                                     Apontar Sobreaviso
                                 </Link> */}
 
@@ -32,15 +32,18 @@ function Sidebar({ children }) {
                                 {/* <Link to='/gestor-dashboard' className ='side-links mt-4' >
                                     Dashboard
                                 </Link> */}
-                                <Link to='/gestor' className ='side-links mt-4' >
+                                <Link to='/adminValores' className='side-links mt-4'>
+                                        Definir valores
+                                </Link>
+                                {/*<Link to='/gestor' className ='side-links mt-4' >
                                         Aprovar Hora Extra
-                                </Link>
-                                <Link to='/gestor-sobreaviso' className ='side-links mt-4' >
+                                </Link>*/}
+                                {/*<Link to='/gestor-sobreaviso' className ='side-links mt-4' >
                                     Aprovar Sobreaviso
-                                </Link>    
-                                <Link to='/gestor-historico' className ='side-links mt-4' >
+                                </Link>*/}    
+                                {/*<Link to='/gestor-historico' className ='side-links mt-4' >
                                     Histórico
-                                </Link>
+                                </Link>*/}
 
                                 <Link to='/listagem-squad' className ='side-links mt-4' >
                                     Listagem squad

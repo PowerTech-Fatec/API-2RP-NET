@@ -9,6 +9,7 @@ import GestorSobreaviso from './pages/home/gestor/aprovar-sobreaviso/gestor-sobr
 import GestorHistorico from './pages/home/gestor/historico/gestor-historico'
 import ListagemSquad from './pages/home/admin/listagemSquad/listagemSquad'
 import { Login } from './pages/login/login';
+import AdminValores from './pages/home/admin.Valores/adminValores';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path='/gestor-historico' element={<GestorHistorico />} />
       <Route path='/listagem-squad' element={<ListagemSquad />} />
       <Route path='*' element={<Login />} />
+      <Route path='/adminValores' element={<AdminValores/>} />
     </Routes>
 
   );
