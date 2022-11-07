@@ -32,7 +32,7 @@ function Sidebar({ children }) {
                                 {/* <Link to='/gestor-dashboard' className ='side-links mt-4' >
                                     Dashboard
                                 </Link> */}
-                                {/* <Link to='/gestor' className ='side-links mt-4' >
+                                <Link to='/gestor' className ='side-links mt-4' >
                                         Aprovar Hora Extra
                                 </Link>
                                 <Link to='/gestor-sobreaviso' className ='side-links mt-4' >
@@ -40,29 +40,7 @@ function Sidebar({ children }) {
                                 </Link>    
                                 <Link to='/gestor-historico' className ='side-links mt-4' >
                                     Histórico
-                                </Link> */}
-
-                                <Link to='/gestor' className ='side-links mt-4' >
-                                        Horas extras
                                 </Link>
-                                <Link to='/gestor-sobreaviso' className ='side-links mt-4' >
-                                    Definir valores horas
-                                </Link>    
-                                <Link to='/adm/squad' className ='side-links mt-4' >
-                                    Definir squad
-                                </Link>
-
-                                <Link to='/gestor' className ='side-links mt-4' >
-                                        Listagem squad
-                                </Link>
-                                <Link to='/gestor-sobreaviso' className ='side-links mt-4' >
-                                        Horas extras
-                                </Link>    
-                            
-
-
-
-
 
 
                                 <Link to='/login' className ='side-links mt-4' >

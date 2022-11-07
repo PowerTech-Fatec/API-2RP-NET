@@ -37,25 +37,13 @@ function Squad() {
             {/* card colaborador */}
             <div className="d-flex flex-column aling-itens-center">
             <Card 
-              Usuario = "Marcelo Uchoas"
-            />
-
-            <Card 
-              Usuario = "Luciano Castro"
-            />
-
-            <Card 
-              Usuario = "Fernando de Assis"
-            />
-
-            <Card 
-              Usuario = "Aline Moura"
+              Usuario = "Marcelinho VIP"
             />
 
             </div>
               
-              <div className="col-11 d-flex justify-content-end mb-3">
-              <button type="button" class="btn btn-success">Salvar</button>
+              <div className="d-flex justify-content-end">
+              <button type="button" class="btn btn-success mt-1">Aceitar</button>
               </div>
 
 

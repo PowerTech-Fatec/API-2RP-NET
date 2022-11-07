@@ -8,7 +8,7 @@ function Card(props) {
 
             <div className="card-title ml-2 mt-1">
                 <span>
-                <h5>Colaborador: {props.Usuario}</h5> 
+                <h5>Usuário: {props.Usuario}</h5> 
                 <button type="button" class="btn btn-danger mb-1">Excluir</button>
                 </span>
             </div>

@@ -48,7 +48,7 @@ function Sidebar({ children }) {
                                 <Link to='/gestor-sobreaviso' className ='side-links mt-4' >
                                     Definir valores horas
                                 </Link>    
-                                <Link to='/adm/squad' className ='side-links mt-4' >
+                                <Link to='/adm/squad/def-squad' className ='side-links mt-4' >
                                     Definir squad
                                 </Link>
 

@@ -37,19 +37,19 @@ function Squad() {
             {/* card colaborador */}
             <div className="d-flex flex-column aling-itens-center">
             <Card 
-              Usuario = "Marcelo Uchoas"
+              Usuario = "Marcelinho VIP"
             />
 
             <Card 
-              Usuario = "Luciano Castro"
+              Usuario = "Marcelinho VIP"
             />
 
             <Card 
-              Usuario = "Fernando de Assis"
+              Usuario = "Marcelinho VIP"
             />
 
             <Card 
-              Usuario = "Aline Moura"
+              Usuario = "Marcelinho VIP"
             />
 
             </div>
