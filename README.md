@@ -113,7 +113,7 @@ lançamento) e colaborador (apontar horas extras).
 
 - [x] [SPRINT 2](https://github.com/PowerTech-Fatec/API-2RP-NET/tree/master/Sprint%202) - 19/09/2022 a 09/10/2022
 
-- [x] SPRINT 3- 13/10/2022 a 06/11/2022
+- [x] [SPRINT 3](https://github.com/PowerTech-Fatec/API-2RP-NET/tree/master/Sprint%203) 13/10/2022 a 06/11/2022
 
 - [x] SPRINT 4 - 07/11/2022 a 27/11/2022
 
