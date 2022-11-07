@@ -3,18 +3,18 @@
 
 <hr>
 <p align="center">  
-  •<a href ="🔖">   Primeira Entrega - SPRINT 2 </a> • 
+  •<a href ="🔖">   Terceira Entrega - SPRINT 3 </a> • 
    <a href="#tv-wireframe" >  Wireframe </a> • 
    <a href="#trophy-burndown" >   BurnDown </a> • 
   <a href="	#desktop_computer" >   Projeto Rodando </a> • 
    
-  # 🔖  Primeira Entrega - SPRINT 2
+  # 🔖  Terceira Entrega - SPRINT 3
 Nessa sprint focamos em entregar a parte de login de usuario e telas do gestor
 
-## Backlog da Sprint 2
+## Backlog da Sprint 3
   
  
-|  ID  | Sprint |     Quem?     |                     User Story                     |                              Por quê?                             | Estimativa 0-100 (Planning Poker) | Estimativa 0-100 (Planning Poker) - Horas | Prioridade (1-5)  |
+|  ID  | Sprint |     Quem?     |                     User Story                     |                              Por quê?                             | Estimativa 0-100 (Planning Poker) | Estimativa 0-100 (Planning Poker) - Horas | Importância  |
 |:----:|:------:|:-------------:|:--------------------------------------------------:|:-----------------------------------------------------------------:|:---------------------------------:|:-----------------------------------------:|:-----------------:|
 | US10 |    3   | Administrador |         Desejo definir o tipo dos usuários         |   Para que eles possam ter o respectivo controle de suas funções  |                 2                 |                     4                     |        Alta       |
 | US11 |    3   | Administrador |   Desejo definir os valores das horas adicionais   | Para que possa ter controle sobre os valores de cada tipo de hora |                 3                 |                     6                     |     Muito Alta    |
