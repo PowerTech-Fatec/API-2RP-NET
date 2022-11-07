@@ -1,4 +1,5 @@
- <img src="https://user-images.githubusercontent.com/102330791/163039449-5e73781f-a340-45b3-a42e-28d95e476e76.png" width="150px" />
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/102330791/163039449-5e73781f-a340-45b3-a42e-28d95e476e76.png" width="150px" />
 </div>
 
 <hr>
@@ -6,7 +7,7 @@
   •<a href ="🔖">   Terceira Entrega - SPRINT 3 </a> • 
    <a href="#tv-wireframe" >  Wireframe </a> • 
    <a href="#trophy-burndown" >   BurnDown </a> • 
-  <a href="	#desktop_computer" >   Projeto Rodando </a> • 
+  <a href ="computer_mouse" >   Projeto Rodando </a> • 
    
   # 🔖  Terceira Entrega - SPRINT 3
 Nessa sprint focamos em entregar a parte de login de usuario e telas do gestor
@@ -63,17 +64,17 @@ Nessa sprint focamos em entregar a parte de login de usuario e telas do gestor
   <img src="https://github.com/PowerTech-Fatec/API-2RP-NET/blob/master/docs/imagens/gifs/Hours%20Burn%20Down%20(2).png">
   
  
-  ##	:desktop_computer: Projeto Rodando
+  ##	:computer_mouse: Projeto Rodando
 
-### Tela onde se definem os squads(grupos)
+### Tela onde se definem os squads(grupos);
 
   <img src="https://github.com/PowerTech-Fatec/API-2RP-NET/blob/master/docs/imagens/gifs/React-App-Google-Chrome-2022-11-06-21-52-59.gif">
   
-### Tela com as verbas e suas variáveis
+### Tela com as verbas e suas variáveis;
 
-  <img src="https://github.com/PowerTech-Fatec/API-2RP-NET/blob/master/docs/imagens/gifs/ezgif.com-gif-maker.gif">
+  <img src="https://github.com/PowerTech-Fatec/API-2RP-NET/blob/master/docs/imagens/gifs/ezgif.com-gif-maker2.gif">
   
-### Tela listando os squads
+### Tela listando os squads;
 
   <img src="https://github.com/PowerTech-Fatec/API-2RP-NET/blob/master/docs/imagens/gifs/gif.gif">
   
