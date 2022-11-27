@@ -23,10 +23,10 @@ function Sidebar({ children }) {
                                 </Link>}
                                 {/*<Link to='/horaextra' className ='side-links mt-4'>
                                     Apontar Hora Extra
-                            </Link>*/}
+                                </Link>*/}
                                 {/*<Link to='/sobreaviso' className ='side-links mt-4' >
                                     Apontar Sobreaviso
-                                </Link> */}
+                                </Link>*/}
 
                                 {/* Associar a lista de link */}
                                 {/* <Link to='/gestor-dashboard' className ='side-links mt-4' >
