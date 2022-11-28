@@ -58,7 +58,7 @@
 
 ## :trophy: BurnDown
 
-<img src="https://github.com/PowerTech-Fatec/API-2RP-NET/blob/master/docs/imagens/gifs/Hours%20Burn%20Down%20(2).png">
+<img src="https://github.com/PowerTech-Fatec/API-2RP-NET/blob/master/docs/imagens/Hours%20Burn%20Down.png">
 
 
 
